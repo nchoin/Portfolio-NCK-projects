@@ -10,11 +10,9 @@
 }
 body {
     background-color: var(--white);
-    font-family: Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header{
-    
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -33,7 +31,7 @@ li a {
     font-variant: small-caps;
     font: size 2em;
 }
-section {
+section.intro {
     background-color: var(--tan);
 }
 .logo {
@@ -42,8 +40,68 @@ section {
     height: auto;
     
 }
-figcaption {
+figcaption  {
     background-color: var(--purple);
     color: var(--white);
     text-align: center;
+    padding-bottom:10px;
+}
+h1 {
+    font-family: Verdana, sans-serif;
+    font-variant: small-caps;
+}
+
+article {
+    background-color: var(--tan);
+    margin: 2px;
+}
+
+p::first-letter {
+    color: var(--purple);
+    font-size: xx-large;
+}
+button a:link, a:visited {
+    margin:0;
+    padding: 5px;
+    border: 2px solid var(--brown);
+    background-color: var(--brown);
+    text-decoration: none;
+    color: var(--white);
+    
+}
+.namelogo {
+    border-radius: 10%;
+    margin:0
+    display: inline;
+}
+
+.circlepic {
+    max-width:50%;
+    height: auto;
+    border-radius: 250%
+}
+
+section.gallery{
+    border: 1px solid var(--tan);
+}
+section.gallery:hover{
+    border: 1px solid var(--ltpink);
+}
+.circlebutton {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10%;
+}
+div.caption {
+    padding:15px;
+    text-align: center;
+}
+section.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid var(--pink);
+}
+section.flex-container > section {
+    padding: 5px 2px;
+    border:2px solid var(--brown);
 }
