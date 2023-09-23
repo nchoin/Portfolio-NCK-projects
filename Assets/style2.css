@@ -77,16 +77,28 @@ div .logo1 {
     margin: 0px 5px;
 }
 .circlepic {
-    height: 250px;
+    height: 200px;
     width: auto;
     border-radius: 25%;
 }
+.projects {
+    background-color: var(--ltpink);
+}
+
 /* flexbox for images which have links to projects */
 .container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.circlebuttonb {
+    height: 250px;
+    width: auto;
+    padding: 5px 0;
+    border-radius: 250%;
 }
 .circlebutton {
     height: 200px;
@@ -98,9 +110,11 @@ div .logo1 {
 .circlebutton:hover {
     transform: scale(1.2);
 }
-
+.contact {
+    background-color: var(--tan);
+}
 footer {
-    background-color: var(--purple);
+    background-color: var(--brown);
     width: 100%;
     margin: 0;
 }
