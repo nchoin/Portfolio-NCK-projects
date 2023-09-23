@@ -36,8 +36,8 @@ section.intro {
 }
 .logo {
     margin: 0 45%;
-    width: 10%;
-    height: auto; 
+    /* width: 100%;
+    height: auto;  */
 }
 /*
 figcaption  {
@@ -111,4 +111,14 @@ section.flex-container {
 section.flex-container > section {
     padding: 5px 2px;
     border:2px solid var(--brown);
+}
+
+.container {
+   display:flex;
+   flex-direction: column; 
+   justify-content: center;
+}
+article.container {
+    display:flex;
+    
 }
