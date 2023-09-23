@@ -9,9 +9,16 @@
     --ltpink: #FFD4DB;
 }
 body {
-    background-color: var(--white);
+    background-color: var(--tan);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h1{
+    font-variant: small-caps;
+    font-size: 2em;
+    width: 100%;
+    background-color: #D8B9A4;
+}
+/* created floating navigation bar*/
 
 .navbar {
     position:fixed;
@@ -45,9 +52,36 @@ li a {
 }
 li a:hover {
     background-color: var(--pink);
-    color: var(--brown)
+    color: var(--brown);
+    font-size: 1.8em;
 }
-
+header {
+    background-color: var(--ltpink);
+    width: 100%;
+}
+div .logo1 {
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.containerme {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.wrap {
+    float: left;
+    margin: 5px;
+}
+.wrapr{
+    float: right;
+    margin: 0px 5px;
+}
+.circlepic {
+    height: 250px;
+    width: auto;
+    border-radius: 25%;
+}
+/* flexbox for images which have links to projects */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -59,4 +93,17 @@ li a:hover {
     width: auto;
     padding: 5px 0;
     border-radius: 250%;
+}
+
+.circlebutton:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: var(--purple);
+    width: 100%;
+}
+.logo {
+    height: 100px;
+    margin-left: 45%;
 }
