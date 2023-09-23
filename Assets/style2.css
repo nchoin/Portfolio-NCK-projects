@@ -8,6 +8,7 @@
     --brown: #523A28;
     --ltpink: #FFD4DB;
 }
+/* styles for the entire website */
 body {
     background-color: var(--tan);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,14 +16,16 @@ body {
 h1{
     font-variant: small-caps;
     font-size: 2em;
+    margin-top: 150px;
     width: 100%;
     background-color: #D8B9A4;
+    color: var(--purple)
 }
 /* created floating navigation bar*/
 
 .navbar {
     position:fixed;
-    margin-top: 0;
+    margin-top: 0px;
     margin-left: 0;
     width: 100%;
     z-index: 1;
@@ -55,27 +58,36 @@ li a:hover {
     color: var(--brown);
     font-size: 1.8em;
 }
+/* styles related to the header and top logo */
 header {
     background-color: var(--ltpink);
     width: 100%;
 }
-div .logo1 {
-    margin-top: 50px;
+
+/* div .logo1 {
+    margin-top: 0px;
     margin-left: 40%;
-}
-.containerme {
+} */
+/* styles related to the the About Me section */
+/* .containerme {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-.wrap {
+} */
+/* .wrap {
     float: left;
     margin: 5px;
-}
+} */
 .wrapr{
     float: right;
     margin: 0px 5px;
 }
+p::first-letter {
+    color: var(--purple);
+    font-size: xx-large;
+    /* font-variant: small-caps; */
+}
+
 .circlepic {
     height: 200px;
     width: auto;
@@ -84,7 +96,7 @@ div .logo1 {
 .projects {
     background-color: var(--ltpink);
 }
-
+/* styling for Projects section */
 /* flexbox for images which have links to projects */
 .container {
     display: flex;
@@ -110,15 +122,27 @@ div .logo1 {
 .circlebutton:hover {
     transform: scale(1.2);
 }
+/* styling for contact section */
 .contact {
     background-color: var(--tan);
 }
+/* styling for footer */
 footer {
     background-color: var(--brown);
     width: 100%;
     margin: 0;
 }
-.logo {
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+img {
+    margin:auto;}
+/* .logo {
     height: 100px;
     margin-left: 45%;
-}
+} */
+
+/* media queries for adjustable sizing */
