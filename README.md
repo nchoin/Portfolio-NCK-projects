@@ -2,6 +2,7 @@
 
 ## Description
 I've created a portfolio to hightlight my deployed web applications and share information about my work experience and skillset which add to my qualifications for work in the computer programming. This portfolio will be updated with my recent work on a regular basis.
+At this time, I have not included my really email or contact information as I don't wished to be trolled at this time. I will be update the information when I am job hunting and no longer a student. The link to my GitHub portfolio is a live link.
 
 ## Installation
 
