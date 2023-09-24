@@ -10,6 +10,9 @@ N/A
 ## Usage
 Visitors can use this website on a variety of screens. The intent is for the viewer to learn more about me and my qualifications. The live website is available at this link:
 https://nchoin.github.io/Portfolio-NCK-projects/
+<img width="432" alt="Screenshot 2023-09-23 at 9 48 01 PM" src="https://github.com/nchoin/Portfolio-NCK-projects/assets/139597297/196ff296-6065-4881-bc46-b6d6d6fee1cf">
+<img width="616" alt="Screenshot 2023-09-23 at 9 47 24 PM" src="https://github.com/nchoin/Portfolio-NCK-projects/assets/139597297/0209a217-2ccf-4cf8-8df1-f75434bc4cc3">
+<img width="297" alt="Screenshot 2023-09-23 at 9 45 28 PM" src="https://github.com/nchoin/Portfolio-NCK-projects/assets/139597297/773f1313-3465-4c10-a0d5-4b9142f741ff">
 
 
 ## Credits
