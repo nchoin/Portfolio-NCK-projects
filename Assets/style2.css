@@ -180,7 +180,11 @@ figure {
     font-size: 2em;
     font-variant: small-caps;
 }
-.info, button a:link, a:visited, a:active {
+.info a:link, a:visited, a:active {
+    color: var(--white);
+    text-decoration: none;
+}
+button a:link, a:visited, a:active {
     color: var(--white);
     text-decoration: none;
 }
