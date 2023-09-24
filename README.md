@@ -1,4 +1,4 @@
-# Intial Portfolio of Computer Programming Work
+# Initial Portfolio of Computer Programming Work
 
 ## Description
 I've created a portfolio to hightlight my deployed web applications and share information about my work experience and skillset which add to my qualifications for work in the computer programming. This portfolio will be updated with my recent work on a regular basis.
