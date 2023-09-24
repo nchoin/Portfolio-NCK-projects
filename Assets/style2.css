@@ -30,7 +30,14 @@ img .logo1 {
     margin:auto;
     height: 200px;
 }
-
+button {
+    background-color: var(--midnight);
+    color: var(--white);
+    position:relative;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 10%;
+}
 /* created fixed navigation bar*/
 .navbar {
     position:absolute;
@@ -173,8 +180,9 @@ figure {
     font-size: 2em;
     font-variant: small-caps;
 }
-.info a:link, a:visited, a:active {
+.info, button a:link, a:visited, a:active {
     color: var(--white);
+    text-decoration: none;
 }
 
 /* styling for footer */
@@ -205,6 +213,7 @@ footer {
 }
 }
 @media screen and (max-width:600px) {
+   
     .contact-container {
         flex-direction: column;
         align-content: left;
@@ -212,6 +221,11 @@ footer {
     }
 }
 @media screen and (max-width:515px) {
+    li a:hover {
+        background-color: var(--turquoise);
+        color: var(--midnight);
+        font-size: 1em;
+    }
     li a {
         /* display:inline-block;
         text-align: left;
@@ -234,6 +248,10 @@ footer {
     li a {
         padding: 10px;
     }
+    h1 {
+        margin-top: 50px;
+        font-size: 1.2em;
+    }
    p {
     font-size: 1em;
    }
@@ -242,10 +260,10 @@ footer {
     }  
 }
 @media screen and (max-width:320px) {
-    h1 {
+    /* h1 {
         margin-top: 50px;
         font-size: 1.2em;
-    }
+    } */
 header, .projects {
     background-color: var(--grey);
     }
