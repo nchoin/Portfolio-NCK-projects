@@ -33,7 +33,7 @@ img .logo1 {
 
 /* created fixed navigation bar*/
 .navbar {
-    position:fixed;
+    position:absolute;
     margin-top: 0px;
     margin-left: 0;
     width: 100%;
