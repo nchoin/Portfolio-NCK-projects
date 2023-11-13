@@ -168,7 +168,7 @@ figure {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: baseline;
     background-color: var(--dkblue);
     margin: 0 0 5px 0;
