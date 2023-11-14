@@ -156,15 +156,14 @@ p {
     text-align: center;
     margin-top: -20px;
     color: var(--white);
-    text-decoration: none;
 }
 figure {
     margin: 0;
 }
-/* .captionLink a:link, a:visited, a:active {
-    color: var(--dkblue);
+.captionLink, a:link, a:visited, a:active {
+    color: var(--white);
     text-decoration: none;
-} */
+}
 
 /* styling for contact section */
 .contact {
